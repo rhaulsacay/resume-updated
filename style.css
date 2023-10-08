@@ -1,0 +1,198 @@
+/*External CSS for resume_updated.html*/
+
+/*Universal*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  direction: block;
+  background-color: #5f88b4;
+}
+
+@media screen and (max-width: 600px) {
+  .box-content h2 {
+    margin: 10px 100px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .box-content p {
+    font-size: 15px;
+    text-align: center;
+    padding: 0 20px 5px 10px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .box-content h2 {
+    margin: 10px 100px;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .box-content p {
+    margin: 10px 100px;
+    font-size: 25px;
+    text-align: center;
+    padding: 0 20px 5px 20px;
+  }
+}
+p {
+  font-size: 20px;
+}
+
+footer {
+  background-color: #3598bd;
+  text-align: center;
+  justify-content: flex-end;
+  padding: 10px 0;
+}
+
+.section-title {
+  text-align: center;
+  align-self: center;
+  font-size: 30px;
+  background-color: #11b8f5;
+  border: 5px solid #fff;
+  border-radius: 5px;
+  padding: 0 30px;
+  max-width: 100vw;
+}
+
+/*Box*/
+
+.box {
+  background: #89abd4;
+  border-radius: 10px;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+}
+
+.box-image img {
+  width: 100%;
+  height: 160px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+}
+
+.profile-image img {
+  width: 120px;
+  height: 120px;
+  margin-top: -75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+  border: 10px solid #fff;
+  animation: profile-image 2s infinite;
+}
+
+@keyframes profile-image {
+  0% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fff;
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+
+.icons {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+
+.icons a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  padding: 0 14px;
+  transition-duration: 0.4s;
+  transition-property: transform;
+}
+
+.icons a:hover {
+  color: white;
+  transform: scale(1.5);
+}
+
+/*Informations about me*/
+
+.info {
+  margin: 0 100px;
+  position: relative;
+}
+
+.info-item {
+  display: block;
+  margin-bottom: 40px;
+}
+
+.info-content {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.info-content h3 {
+  margin-top: 0;
+}
+
+.info-content p {
+  margin-bottom: 0;
+}
+
+ul {
+  text-align: left;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: top;
+  margin-left: 50px;
+}
+
+.info-lnpic {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -40px;
+  position: absolute;
+}
+
+.info-ln {
+  text-align: left;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: top;
+  margin-left: 50px;
+}
+
+/*Table*/
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 3px solid #ddd;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid black;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
